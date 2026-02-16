@@ -1,0 +1,10 @@
+module.exports = {
+  // 定义路由规则
+  routes: [
+    {
+      // 将所有请求重写到 /api 路径（类似 Vercel 的 rewrites）
+      src: '/(.*)',
+      dest: '/api',
+    },
+  ],
+}
