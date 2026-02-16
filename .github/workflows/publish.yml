@@ -16,7 +16,7 @@ on:
       deno:
         description: "Deploy to deno"
         required: true
-        type: boolean
+        type: true
         default: true
 
 jobs:
